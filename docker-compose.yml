@@ -1,0 +1,9 @@
+fp_db:
+    image: mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: fp
+        MYSQL_USER: fp
+        MYSQL_PASSWORD: fp
+    expose:
+        - 3306
